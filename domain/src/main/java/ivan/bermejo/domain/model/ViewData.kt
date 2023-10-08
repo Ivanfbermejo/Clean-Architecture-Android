@@ -1,5 +1,7 @@
 package ivan.bermejo.domain.model
-interface ViewData {
-    val name: String
-    val image: String
-}
+data class ViewData (
+    val id: Int,
+    val name: String,
+    val image: String,
+    val favorite: Boolean = false
+)

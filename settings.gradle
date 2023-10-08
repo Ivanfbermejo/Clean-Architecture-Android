@@ -15,3 +15,5 @@ rootProject.name = "Clean Architecture"
 include ':app'
 include ':domain'
 include ':data'
+include ':database'
+include ':presentation'

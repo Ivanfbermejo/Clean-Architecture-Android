@@ -1,8 +1,7 @@
 package ivan.bermejo.domain
 
 import ivan.bermejo.domain.model.ViewData
-import kotlinx.coroutines.flow.Flow
 
-interface IDataRepository {
+interface IRepositoryApi {
     suspend fun getAll(): List<ViewData>
 }
